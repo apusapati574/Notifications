@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  height: 20px; width: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.info-msg {
+  background-color: #0b69ff;
+  color: white;
+  height: 50px; width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.success-msg {
+  background-color: #2dca73;
+  color: white;
+  height: 50px; width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.warning-msg {
+  background-color: #ffb800;
+  color: white;
+  height: 50px; width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.error-msg {
+  background-color: #ff0b37;
+  color: white;
+  height: 50px; width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  ul {
+    width: 450px;
+  }
+}
+
+@media (max-width: 992px) {
+  ul {
+    width: 460px;
+  }
+}
+
+@media (max-width: 1200px) {
+  ul {
+    width: 500px;
+  }
+}
